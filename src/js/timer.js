@@ -58,7 +58,7 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Jul 17, 2021'),
+  targetDate: new Date('Jul 07, 2021'),
 });
 
 btnRefs.start.addEventListener('click', timer.start.bind(timer));
